@@ -1,0 +1,11 @@
+[submodule "submodules/grasp_env"]
+	path = submodules/grasp_env
+	url = https://github.com/giuschio/grasp-env-public
+	branch = main
+[submodule "submodules/simple_panda_grasp"]
+	path = submodules/simple_panda_grasp
+	url = https://github.com/giuschio/simple-panda-grasp-public
+	branch = main
+[submodule "submodules/grasp_learning_cl"]
+	path = submodules/grasp_learning_cl
+	url = https://github.com/giuschio/graspcl-model-public

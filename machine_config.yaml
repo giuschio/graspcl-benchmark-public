@@ -1,0 +1,7 @@
+# Default: run the integrated experiments in simulation.
+machine_type: simulation
+
+# Real-robot alternative: comment out the simulation setting above and
+# uncomment both settings below after calibrating Simple Panda Grasp.
+# machine_type: real_robot
+# panda_config_path: submodules/simple_panda_grasp/configs/config_panda.yaml

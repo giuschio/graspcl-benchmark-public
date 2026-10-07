@@ -1,0 +1,27 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "python.analysis.extraPaths": [
+        "submodules/grasp_env",
+        "submodules/grasp_learning_cl",
+        "submodules/simple_panda_grasp",
+        "submodules/simple_panda_grasp/submodules/apriltag_bundle_detector",
+        "submodules/simple_panda_grasp/submodules/realsense_utils2",
+        "submodules/simple_panda_grasp/submodules/realsense_utils2/submodules/camera_depth_models",
+        "submodules/simple_panda_grasp/submodules/realsense_utils2/submodules/foundation_stereo",
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.defaultPackageManager": "ms-python.python:pip",
+    "python.terminal.activateEnvironment": false,
+    "files.watcherExclude": {
+        "**/venv/**": true,
+        "**/.venv/**": true
+    },
+    "git.detectSubmodules": true,
+    "git.detectSubmodulesLimit": 20,
+    "git.autoRepositoryDetection": "subFolders",
+    "git.repositoryScanMaxDepth": 6,
+    "git.scanRepositories": [
+        "submodules",
+    ],
+    "git.openRepositoryInParentFolders": "always"
+}
